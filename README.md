@@ -11,4 +11,4 @@ Retrieve the JSON project file for the project.
 
 Create a Dialogflow project and agent and retrieve the JSON project file from the Google Cloud Console.
 
-Add in your Google Cloud Natural Language and Dialogflow JSON to the project.
+Add in the Google Cloud Natural Language and Dialogflow JSON to the project.
