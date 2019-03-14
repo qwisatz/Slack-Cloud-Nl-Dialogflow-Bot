@@ -19,10 +19,10 @@ public class JSlackApplicationTests {
 	@Test
 	public void testGoogleCloudNlp() throws Exception {
 		// GOOGLE NLP CREDENTIALS
-		String pathTokenGoogleCloudNl = "AvayaNlp-e422dbca92e5.json";
+		String pathTokenGoogleCloudNl = "xxxxxxxxxxxxxxxxxx.json";
 		// DIALOG FLOW CREDENTIALS AND PROJECT ID
-		String pathTokenDialogflow = "newagent-650ea-ceec7f7a5786.json";
-		String projectId = "newagent-650ea";
+		String pathTokenDialogflow = "xxxxxxxxxxxxxxxxxxxxx.json";
+		String projectId = "xxxxxxxxxxxxxxxxxxxxxxx";
 		
 		// CREATE SLACKBOT OBJECT
 		SlackBot slackBot = new SlackBot("slackBotNuigTestBot10", pathTokenGoogleCloudNl, pathTokenDialogflow, projectId);
@@ -43,10 +43,10 @@ public class JSlackApplicationTests {
 	@Test
 	public void testDialogflow() throws Exception {
 		// GOOGLE NLP CREDENTIALS
-		String pathTokenGoogleCloudNl = "AvayaNlp-e422dbca92e5.json";
+		String pathTokenGoogleCloudNl = "xxxxxxxxxxxxxxxxxxxxx.json";
 		// DIALOG FLOW CREDENTIALS AND PROJECT ID
-		String pathTokenDialogflow = "newagent-650ea-ceec7f7a5786.json";
-		String projectId = "newagent-650ea";
+		String pathTokenDialogflow = "xxxxxxxxxxxxxxxxxxxxxxxx.json";
+		String projectId = "xxxxxxxxxxxxxxxxxxxx";
 		
 		// CREATE SLACKBOT OBJECT
 		SlackBot slackBot = new SlackBot("slackBotNuigTestBot10", pathTokenGoogleCloudNl, pathTokenDialogflow, projectId);
