@@ -1,5 +1,7 @@
 package com.sbJslack.JSlack;
 
+import java.util.ArrayList;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,20 +14,20 @@ public class JSlackApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-	
+
 	/*------------------------------------------------------------------*/
 	// TESTING GOOGLE NLP 
 	/*------------------------------------------------------------------*/
 	@Test
 	public void testGoogleCloudNlp() throws Exception {
 		// GOOGLE NLP CREDENTIALS
-		String pathTokenGoogleCloudNl = "xxxxxxxxxxxxxxxxxx.json";
+		String pathTokenGoogleCloudNl = "xxxxxxxxxxxxxxxxxxxxxxxxxxx.json";
 		// DIALOG FLOW CREDENTIALS AND PROJECT ID
-		String pathTokenDialogflow = "xxxxxxxxxxxxxxxxxxxxx.json";
-		String projectId = "xxxxxxxxxxxxxxxxxxxxxxx";
+		String pathTokenDialogflow = "xxxxxxxxxxxxxxxxxxxxxxxxxx.json";
+		String projectId = "xxxxxxxxxxxxxxxxxxxxxxxxxx";
 		
 		// CREATE SLACKBOT OBJECT
-		SlackBot slackBot = new SlackBot("slackBotNuigTestBot10", pathTokenGoogleCloudNl, pathTokenDialogflow, projectId);
+		SlackBot slackBot = new SlackBot("slackBotTestBot10", pathTokenGoogleCloudNl, pathTokenDialogflow, projectId);
 		System.out.println("SLACKBOT OBJECT CREATED: " + slackBot.getName());
 		
 		String testString = "This is a very good test.";
@@ -43,13 +45,13 @@ public class JSlackApplicationTests {
 	@Test
 	public void testDialogflow() throws Exception {
 		// GOOGLE NLP CREDENTIALS
-		String pathTokenGoogleCloudNl = "xxxxxxxxxxxxxxxxxxxxx.json";
+		String pathTokenGoogleCloudNl = "xxxxxxxxxxxxxxxxxxx.json";
 		// DIALOG FLOW CREDENTIALS AND PROJECT ID
-		String pathTokenDialogflow = "xxxxxxxxxxxxxxxxxxxxxxxx.json";
-		String projectId = "xxxxxxxxxxxxxxxxxxxx";
+		String pathTokenDialogflow = "xxxxxxxxxxxxxxxxxxxxxxxxx.json";
+		String projectId = "xxxxxxxxxxxxxxxxx";
 		
 		// CREATE SLACKBOT OBJECT
-		SlackBot slackBot = new SlackBot("slackBotNuigTestBot10", pathTokenGoogleCloudNl, pathTokenDialogflow, projectId);
+		SlackBot slackBot = new SlackBot("slackBotTestBot10", pathTokenGoogleCloudNl, pathTokenDialogflow, projectId);
 		System.out.println("SLACKBOT OBJECT CREATED: " + slackBot.getName());
 		
 		String testString = "This is a dialogflow test.";
@@ -62,6 +64,5 @@ public class JSlackApplicationTests {
 		System.out.println(dialogString);
 		
 	}
-
 }
 
