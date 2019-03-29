@@ -12,6 +12,7 @@ Create a Google Natural Clould Language Project on the link: https://cloud.googl
 
 Retrieve the JSON project file for the project.
 
-Create a Dialogflow project and agent and retrieve the JSON project file from the Google Cloud Console.
+Create a Dialogflow project and agent from the link https://dialogflow.com/docs/getting-started/create-accountand 
+Retrieve the JSON project file from the Google Cloud Console.
 
 Add in the Google Cloud Natural Language and Dialogflow JSON to the project.
