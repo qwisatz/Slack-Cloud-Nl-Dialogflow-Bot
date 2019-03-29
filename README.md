@@ -8,7 +8,7 @@ Create a Slack App and retrieve its OAuth token. Add the Slack App bot to a chan
 
 Create a Google Natural Clould Language Project on the link: https://cloud.google.com/natural-language/docs/quickstart
 
-![alt text](https://imgur.com/G7jcH1f)
+![alt text](https://i.imgur.com/G7jcH1f.png)
 
 Retrieve the JSON project file for the project.
 
