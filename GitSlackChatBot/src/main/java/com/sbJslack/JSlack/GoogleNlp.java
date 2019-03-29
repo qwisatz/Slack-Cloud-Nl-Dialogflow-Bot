@@ -10,7 +10,6 @@ import com.google.api.gax.core.FixedCredentialsProvider;
 import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.cloud.language.v1.LanguageServiceClient;
 import com.google.cloud.language.v1.LanguageServiceSettings;
-
 public class GoogleNlp {
 
 	// AUTH TOKEN FOR GOOGLE CLOUD NLP
