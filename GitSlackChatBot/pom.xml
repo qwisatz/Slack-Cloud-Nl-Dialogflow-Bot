@@ -80,6 +80,11 @@
 			<artifactId>google-cloud-dialogflow</artifactId>
 			<version>0.81.0-alpha</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
