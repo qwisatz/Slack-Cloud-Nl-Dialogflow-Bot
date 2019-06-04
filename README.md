@@ -1,5 +1,5 @@
 # Slack-Cloud-Nl-Dialogflow-Bot
-A simple Slack chat bot using Google Cloud Natural Language and Dialogflow.
+A Slack chat bot using Google Cloud Natural Language and Dialogflow.
 This project is a JAVA Spring Boot project.
 
 To use this project, import it as an existing maven project in Eclipse or another IDE.
